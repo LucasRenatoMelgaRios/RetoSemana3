@@ -1,0 +1,481 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+img{
+    width: 100%;
+}
+
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.titulo span{
+    color:rgb(52, 91, 169);
+}
+
+
+.cabecera a{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 100;
+}
+
+.cabecera nav{
+    width: 100%;
+    height: 62px;
+    border: 2px rgb(237, 237, 237) solid;
+    display: flex;
+    
+}
+
+.mainImage{
+    width: 100%;
+    height: 550px;
+}
+
+.titulo_productos{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.categoriasContainer{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.categoria{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    
+}
+
+
+.categoria a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    border-end-end-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.categoria a:hover{
+    background-color: rgb(3, 123, 227);
+    color: white;
+    
+}
+
+.nosotrosContainer{
+    background-color: rgb(1, 116, 210);
+    width: 100%;
+    height: 520px;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.nosotrosImage{
+    width: 50%;
+    height: 100%;
+}
+
+.nosotrosImage img{
+    height: 100%;
+}
+
+.nosotrosContainerText{
+    background-color: rgb(0, 130, 181);
+    width: 50%;
+    height: 100%;
+    padding: 70px;
+    color: white;
+}
+
+.nosotrosContainerText h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+.nosotrosContainerText p{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: lighter;
+}
+
+
+/* --------------------------  NUESTROS PRODUCTOS   ---------------------------*/
+
+.nuestrosProductos{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+.productosTitulo{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+.producto1container{
+    margin: 0 auto;
+
+    display: flex;
+    background-color: rgb(24, 100, 143);
+    height: 430px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.producto1textContainer p {
+    padding: 15px;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -35px;
+    
+
+}
+
+.price1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+
+.producto1container button{
+    background-color: rgb(165, 236, 0);
+    width: 80%;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.producto1container button:hover{
+    background-color: rgb(41, 176, 0);
+    transition: background-color 0.3s ease;
+}
+
+.producto1container button:not(:hover) {
+    transition: background-color 0.3s ease; /* Transición suave en el cambio de color durante 0.3 segundos */
+  }
+
+.producto1container h3{
+    font-size: 2rem;
+}
+
+.producto1Image{
+    width: 75%;
+}
+
+.producto1Image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.producto1textContainer{
+    width: 25%;
+}
+
+
+.productos2y3container{
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.productos2y3container .producto2{
+    margin-right: 50px;
+    background-color: rgb(24, 100, 143);
+}
+
+.producto2textContainer{
+    text-align: center;
+    line-height: 30px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.producto2textContainer h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.producto2textContainer button{
+    background-color: rgb(165, 236, 0);
+    width: 80%;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.price2{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.producto2textContainer button:hover{
+    background-color: rgb(41, 176, 0);
+    transition: background-color 0.3s ease;
+}
+
+.producto2textContainer button:not(:hover) {
+    transition: background-color 0.3s ease;
+}
+
+.productos2y3container .producto3{
+    background-color: rgb(24, 100, 143);
+
+}
+
+
+
+
+
+
+
+
+.producto3textContainer{
+    text-align: center;
+    line-height: 30px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.producto3textContainer h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.producto3textContainer button{
+    background-color: rgb(165, 236, 0);
+    width: 80%;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.price3{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.producto3textContainer button:hover{
+    background-color: rgb(41, 176, 0);
+    transition: background-color 0.3s ease;
+}
+
+.producto3textContainer button:not(:hover) {
+    transition: background-color 0.3s ease;
+}
+
+
+
+.productos45y6container{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.producto4 {
+    background-color: rgb(24, 100, 143);
+
+    text-align: center;
+    margin-right: 20px;
+}
+.producto5 {
+    text-align: center;
+
+    background-color: rgb(24, 100, 143);
+    margin-right: 20px;
+}   
+
+.producto6 {
+    text-align: center;
+    background-color: rgb(24, 100, 143);
+
+}   
+
+.productos45y6container .producto4 img{
+    width: 100%;
+}
+
+.productos45y6container .producto5 img{
+    width: 100%;
+}
+
+.productos45y6container .producto6 img{
+    width: 100%;
+}
+
+.producto4textContainer{
+    text-align: center;
+    line-height: 30px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.producto4textContainer h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.producto4textContainer button{
+    background-color: rgb(165, 236, 0);
+    width: 80%;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.price4{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.producto4textContainer button:hover{
+    background-color: rgb(41, 176, 0);
+    transition: background-color 0.3s ease;
+}
+
+.producto4textContainer button:not(:hover) {
+    transition: background-color 0.3s ease;
+}
+
+.producto5textContainer{
+    text-align: center;
+    line-height: 30px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.producto5textContainer h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.producto5textContainer button{
+    background-color: rgb(165, 236, 0);
+    width: 80%;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.price5{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.producto5textContainer button:hover{
+    background-color: rgb(41, 176, 0);
+    transition: background-color 0.3s ease;
+}
+
+.producto5textContainer button:not(:hover) {
+    transition: background-color 0.3s ease;
+}
+
+
+
+/*Footer*/
+
+
+.footerContainer{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menuFooter{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footerTitulo{
+    margin-left: 38px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.listaFooter a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    line-height: 35px;
+}
+
+.listaFooter a:hover{
+    color:rgb(38, 0, 255)
+}
+
+footer p {
+    text-align: center;
+}

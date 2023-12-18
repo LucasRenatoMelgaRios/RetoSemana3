@@ -1,0 +1,179 @@
+/*--------------------CABECERA------------------------*/
+
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.titulo span{
+    color:rgb(52, 91, 169);
+}
+
+
+.cabecera a{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 100;
+}
+
+.cabecera nav{
+    width: 100%;
+    height: 62px;
+    border: 2px rgb(237, 237, 237) solid;
+    display: flex;
+    
+}
+
+
+
+
+/*--------------------FOOTER------------------------*/
+.footerContainer{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
+.menuFooter{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footerTitulo{
+    margin-left: 38px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.listaFooter a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    line-height: 35px;
+}
+
+.listaFooter a:hover{
+    color:rgb(38, 0, 255)
+}
+
+footer p{
+    text-align: center;
+}
+
+
+/*------------CONTENIDO-------------*/
+
+.nuestroBlog{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main > h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.main img{
+    width: 800px;
+}
+
+.main h3{
+    text-align: left;
+    font-size: 2.3rem;
+
+
+}
+.entradasDeBlog{
+    width: 30%;
+    padding: 20px;
+}
+
+.enlacitos{
+    margin-left: 30px;
+}
+
+.enlaces{
+    width: 3400px;
+}
+
+.enlaces h3{
+    margin-top: 20px;
+}
+.enlaces a{
+    font-size: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+
+.reseñas{
+    width: 1000px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.informacion{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.informacion h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.informacion span{
+    color: rgb(0, 102, 255);
+}
+
+.informacion2{
+    width: 800px;
+    text-align: left;
+    line-height: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reseñas button{
+    width: 30%;
+    background-color: rgb(135, 214, 0);
+    padding:15px;
+    color: white;
+    border: 0;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.reseñas button:hover{
+    background-color: rgb(86, 157, 0);
+    transition: background-color 0.3s ease;
+
+}
+
+.reseñas button:not(:hover) {
+    transition: background-color 0.3s ease; /* Transición suave en el cambio de color durante 0.3 segundos */
+  }
